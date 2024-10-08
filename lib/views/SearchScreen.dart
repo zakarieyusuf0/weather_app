@@ -27,7 +27,7 @@ class _SearchScreenState extends State<SearchScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.lightBlue,
-        title: Text('Search the city you like'),
+        title: Text('Search By city'),
       ),
       body: Column(
         children: [
@@ -43,7 +43,7 @@ class _SearchScreenState extends State<SearchScreen> {
                 });
               },
               decoration: InputDecoration(
-                hintText: 'Please Enter The City',
+                hintText: 'City Name',
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(
                     10,
