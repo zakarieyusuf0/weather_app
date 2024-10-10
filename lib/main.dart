@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:weather_app/views/Homescreen.dart';
-
 import 'views/SearchScreen.dart';
 
 void main() {
