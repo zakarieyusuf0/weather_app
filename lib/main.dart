@@ -1,9 +1,10 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:weather_app/views/Homescreen.dart';
+import 'package:weather_app/config/devinfo.dart';
+import 'package:weather_app/views/home_screen.dart';
 
-import 'views/SearchScreen.dart';
+import 'views/search_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
       home: HomeScreen(),
       routes: {
         '/searchScreen': (context) => SearchScreen(),
+        '/devinfo': (context) => DevInfo(),
       },
     );
   }
